@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+
+.box1 {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  /* 以下のようにすると中央ぞろえになる */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.box2 {
+  box-sizing: border-box;
+  background-color: skyblue;
+  width: 200px;
+  height: 200px;
+  border: 10px solid blue;
+  /* border-radius: 10px; */
+  /* position: fixed; */
+  margin: 0 auto;
+}
+
+.box3 {
+  background-color: tomato;
+  /* display: inline; */
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  
+}
