@@ -9,28 +9,16 @@
 </head>
 <body>
   <div class="input-area">
-    <input placeholder="input a TODO">
-    <button>add</button>
+    <input id="add-text" placeholder="input a TODO">
+    <button id="add-button">add</button>
   </div>
   <div class="incomplete-area">
     <p class="title">Incomplrete TODO</p>
-    <ul class="list-row">
-      <li>TODO</li>
-      <button>complete</button>
-      <button>remove</button>
-    </ul>
-    <ul class="list-row">
-      <li>TODO</li>
-      <button>complete</button>
-      <button>remove</button>
-    </ul>
+    <div id="incomplete-list"></div>
   </div>
   <div class="complete-area">
     <p class="title">Complete TODO</p>
-    <ul class="list-row">
-      <li>TODO</li>
-      <button>back</button>
-    </ul>
+    <div id="complete-list"></div>
   </div>
   <script src="index.js"></script>
 </body>
